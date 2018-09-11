@@ -1,0 +1,32 @@
+body{
+	font-family: arial;
+	box-sizing: border-box;
+}
+
+#login{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+
+#login form{
+	box-shadow: 2px 2px 2px 2px #ddd;
+	border-radius: 5px;
+	padding: 30px;
+	margin-top: 50px;
+	width: 300px;
+}
+
+.form-box{
+	margin-bottom: 10px;
+}
+
+.form-box .input{
+	padding: 8px;
+}
+
+label, input{
+	display: block;
+	width: 100%
+}
+
